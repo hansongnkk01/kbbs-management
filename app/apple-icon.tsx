@@ -20,22 +20,14 @@ export default function AppleIcon() {
         }}
       >
         <div style={{
-          color:       'white',
-          fontSize:    80,
-          fontWeight:  900,
-          lineHeight:  1,
-          fontFamily:  'sans-serif',
+          color:         'white',
+          fontSize:      58,
+          fontWeight:    900,
+          lineHeight:    1,
+          letterSpacing: -2,
+          fontFamily:    'sans-serif',
         }}>
-          KB
-        </div>
-        <div style={{
-          color:      'rgba(255,255,255,0.7)',
-          fontSize:   20,
-          fontWeight: 700,
-          letterSpacing: 4,
-          fontFamily: 'sans-serif',
-        }}>
-          BS
+          KBBS
         </div>
       </div>
     ),

@@ -37,10 +37,10 @@ export default function LoginPage() {
       {/* Logo area */}
       <div className="mb-10 text-center anim-up">
         <div
-          className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg"
+          className="w-20 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg px-3"
           style={{ backgroundColor: 'var(--orange)' }}
         >
-          <span className="text-white font-bold text-xl tracking-tight">KB</span>
+          <span className="text-white font-bold text-xl tracking-tight">KBBS</span>
         </div>
         <h1 className="text-2xl font-bold tracking-widest" style={{ color: 'var(--brown)' }}>KBBS</h1>
         <p className="text-xs tracking-widest mt-0.5 font-medium" style={{ color: 'var(--text-soft)' }}>

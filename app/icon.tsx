@@ -21,23 +21,14 @@ export default function Icon() {
         }}
       >
         <div style={{
-          color:       'white',
-          fontSize:    220,
-          fontWeight:  900,
-          lineHeight:  1,
-          letterSpacing: -8,
-          fontFamily:  'sans-serif',
+          color:         'white',
+          fontSize:      180,
+          fontWeight:    900,
+          lineHeight:    1,
+          letterSpacing: -6,
+          fontFamily:    'sans-serif',
         }}>
-          KB
-        </div>
-        <div style={{
-          color:      'rgba(255,255,255,0.7)',
-          fontSize:   54,
-          fontWeight: 700,
-          letterSpacing: 10,
-          fontFamily: 'sans-serif',
-        }}>
-          BS
+          KBBS
         </div>
       </div>
     ),

@@ -393,8 +393,8 @@ export default function DashboardClient({ username }: Props) {
       <div className="sticky top-0 z-40 shadow-sm safe-top" style={{ backgroundColor: 'var(--orange)', borderBottom: '1px solid var(--orange-dark)' }}>
         <div className="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl flex items-center justify-center bg-white/20 shadow-sm">
-              <span className="text-white font-bold text-sm">KB</span>
+            <div className="w-12 h-9 rounded-xl flex items-center justify-center bg-white/20 shadow-sm px-2">
+              <span className="text-white font-bold text-xs tracking-tight">KBBS</span>
             </div>
             <div>
               <h1 className="text-white font-bold text-base tracking-wide leading-none">KBBS</h1>
