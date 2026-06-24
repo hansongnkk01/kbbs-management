@@ -37,7 +37,7 @@ export default function LoginPage() {
       {/* Logo area */}
       <div className="mb-10 text-center anim-up">
         <div
-          className="w-20 rounded-2xl flex flex-col items-center justify-center mx-auto mb-4 shadow-lg py-2.5 px-3 gap-0.5"
+          className="w-20 h-20 rounded-2xl flex flex-col items-center justify-center mx-auto mb-4 shadow-lg gap-0.5"
           style={{ backgroundColor: 'var(--orange)' }}
         >
           <span className="text-white font-black text-xl tracking-tight leading-none">KBBS</span>
