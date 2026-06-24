@@ -31,7 +31,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-5"
+    <div className="min-h-screen flex flex-col items-center justify-center px-5 safe-top safe-bottom"
       style={{ backgroundColor: 'var(--bg)' }}>
 
       {/* Logo area */}

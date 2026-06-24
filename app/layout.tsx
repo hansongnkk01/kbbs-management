@@ -13,11 +13,12 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor:   '#F97316',
-  width:        'device-width',
-  initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
+  themeColor:    '#F97316',
+  width:         'device-width',
+  initialScale:  1,
+  maximumScale:  1,
+  userScalable:  false,
+  viewportFit:   'cover',  // supaya content bole guna safe area
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

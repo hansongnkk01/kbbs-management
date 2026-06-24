@@ -389,8 +389,8 @@ export default function DashboardClient({ username }: Props) {
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'var(--bg)' }}>
 
-      {/* ── Header ── */}
-      <div className="sticky top-0 z-40 shadow-sm" style={{ backgroundColor: 'var(--orange)', borderBottom: '1px solid var(--orange-dark)' }}>
+      {/* ── Header ── safe-top untuk handle notch iPhone */}
+      <div className="sticky top-0 z-40 shadow-sm safe-top" style={{ backgroundColor: 'var(--orange)', borderBottom: '1px solid var(--orange-dark)' }}>
         <div className="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl flex items-center justify-center bg-white/20 shadow-sm">
@@ -434,7 +434,7 @@ export default function DashboardClient({ username }: Props) {
       </div>
 
       {/* ── Kawasan list ── */}
-      <div className="max-w-2xl mx-auto px-4 pt-4 pb-24 space-y-4">
+      <div className="max-w-2xl mx-auto px-4 pt-4 space-y-4 safe-bottom" style={{ paddingBottom: 'calc(6rem + env(safe-area-inset-bottom, 0px))' }}>
         {properties.map(property => {
           const isOpen   = expanded.has(property.id)
           const pRooms   = getRooms(property.id)
