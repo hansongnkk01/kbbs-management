@@ -504,6 +504,12 @@ export default function DashboardClient({ username }: Props) {
             Tambah Kawasan
           </p>
         </div>
+
+        {/* Footer */}
+        <div className="text-center pt-4 pb-2 space-y-0.5">
+          <p className="text-xs font-medium" style={{ color: '#C4A882' }}>KBBS © 2026</p>
+          <p className="text-xs" style={{ color: '#D4B896' }}>Developed by Hanson Engineering</p>
+        </div>
       </div>
 
       {/* Modals */}

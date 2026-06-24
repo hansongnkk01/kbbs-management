@@ -117,9 +117,10 @@ export default function LoginPage() {
         </form>
       </div>
 
-      <p className="mt-8 text-xs font-medium" style={{ color: 'var(--text-soft)' }}>
-        KBBS © 2026
-      </p>
+      <div className="mt-8 text-center space-y-0.5">
+        <p className="text-xs font-medium" style={{ color: 'var(--text-soft)' }}>KBBS © 2026</p>
+        <p className="text-xs" style={{ color: '#C4A882' }}>Developed by Hanson Engineering</p>
+      </div>
     </div>
   )
 }
