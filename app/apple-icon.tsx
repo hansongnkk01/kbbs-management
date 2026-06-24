@@ -21,13 +21,23 @@ export default function AppleIcon() {
       >
         <div style={{
           color:         'white',
-          fontSize:      58,
+          fontSize:      55,
           fontWeight:    900,
           lineHeight:    1,
           letterSpacing: -2,
           fontFamily:    'sans-serif',
         }}>
           KBBS
+        </div>
+        <div style={{
+          color:         'rgba(255,255,255,0.75)',
+          fontSize:      18,
+          fontWeight:    600,
+          letterSpacing: 6,
+          fontFamily:    'sans-serif',
+          marginTop:     4,
+        }}>
+          ADMIN
         </div>
       </div>
     ),

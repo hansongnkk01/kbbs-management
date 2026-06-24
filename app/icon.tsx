@@ -22,13 +22,23 @@ export default function Icon() {
       >
         <div style={{
           color:         'white',
-          fontSize:      180,
+          fontSize:      170,
           fontWeight:    900,
           lineHeight:    1,
           letterSpacing: -6,
           fontFamily:    'sans-serif',
         }}>
           KBBS
+        </div>
+        <div style={{
+          color:         'rgba(255,255,255,0.75)',
+          fontSize:      60,
+          fontWeight:    600,
+          letterSpacing: 18,
+          fontFamily:    'sans-serif',
+          marginTop:     8,
+        }}>
+          ADMIN
         </div>
       </div>
     ),
